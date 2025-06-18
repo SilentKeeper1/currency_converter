@@ -41,4 +41,5 @@ def convert():
     return render_template('index.html', result=result, to_currency=to_currency)
 
 if __name__ == '__main__':
+    
     app.run(debug=True)
